@@ -1,0 +1,453 @@
+---
+---
+.flex-wrapper {
+    display: flex;
+}
+sup {
+    font-size: 0.6em;
+  }
+  .flex-wrapper {
+    display: flex;
+  }
+  .clowder-hamburger {
+    position: fixed;
+    top: 30px;
+    right: 40px;
+  }
+  .main-content-col {
+    width: 400px;
+    margin: 0 25px 0 50px;
+  }
+  .clowder-title {
+    margin-top: 80px;
+  }
+  .clowder-menu a {
+    font-size: 22px !important;
+  }
+  
+  .main-image-col {
+    flex: auto;
+    background: black;
+    margin: 0 120px 0 25px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+  }
+  .image-caption {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    color: white;
+    padding: 10px;
+    font-family: Roboto, Arial;
+    font-size: 0.9em;
+    display: block;
+    opacity: 0.75;
+  }
+  .header-image-placeholder .image-caption {
+    display: none;
+  }
+  .clowder-contact-button {
+    visibility: hidden;
+  }
+  @media only screen and (max-width: 800px) {
+    .main-image-col {
+      display: none;
+    }
+    .main-content-col {
+      width: 100%;
+    }
+    .clowder-menu a {
+      font-size: 25px !important;
+    }
+    .header-image-placeholder {
+      background: url(https://www.clowder.nl/assets/img/foto/IMG_5331_scaled.jpg) center center no-repeat;
+      background-size: cover;
+      height: 400px;
+      margin: 0 -25px 0 -50px;
+      padding: 0 30px 0 50px;
+      position: relative;
+    }
+    .header-image-placeholder .image-caption {
+      display: block;
+    }
+    .clowder-banner-img {
+      margin-left: -10px;
+    }
+    .clowder-hamburger {
+      background: white;
+      opacity: 0.5;
+      padding: 8px;
+      border-radius: 8px;
+      top: 15px;
+      right: 32px;
+    }
+    .clowder-contact-button {
+      visibility: visible;
+    }
+  }
+  @media only screen and (max-width: 475px) {
+    .clowder-menu a {
+      font-size: 22px !important;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    .clowder-banner-img {
+      width: 70%;
+    }
+    .clowder-hamburger {
+      right: 20px;
+    }
+    .main-content-col {
+      margin: 0 25px 0 25px;
+    }
+    .clowder-title {
+      margin-top: 20px;
+    }
+    .clowder-title-text {
+      font-size: 28px !important;
+    }
+  }
+
+  .clowder-hamburger {
+    width: 40px;
+  }
+  .clowder-hamburger a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .clowder-hamburger-line {
+    height: 4px;
+    width: 100%;
+    background: #464646;
+    margin-bottom: 4px;
+  }
+  .clowder-hamburger-text {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.9;
+    color: #464646;
+    font-size: 14px;
+  }
+  .clowder-hamburger-overlay {
+    width: 100%;
+    height: 100%;
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    opacity: 0.95;
+    overflow-y: auto;
+  }
+
+.clowder-menu-page {
+      width: 100vw;
+      min-height: 100vh;
+      display: flex;
+      background: black;
+    }
+    .clowder-menu-page-wrapper {
+      display: flex;
+      margin: auto;
+    }
+    .clowder-close {
+      position: fixed;
+      top: 30px;
+      right: 40px;
+    }
+    .signature {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 80px;
+    }
+    @media only screen and (max-width: 1200px) {
+      .clowder-menu-page-wrapper {
+        display: block;
+      }
+    }
+    @media only screen and (max-width: 640px) {
+      .clowder-menu-page-wrapper {
+        margin-left: 50px;
+      }
+    }
+    @media only screen and (max-width: 400px) {
+      .clowder-menu-page-wrapper {
+        margin-left: 25px;
+      }
+    }
+    @media only screen and (min-width: 1200px) {
+      .clowder-big-theme {
+        margin-right: 50px;
+      }
+    }
+
+    .clowder-contact-button {
+      text-align: center;
+    }
+    .clowder-contact-button a {
+      font-family: 'Roboto', sans-serif;
+      padding: 10px 15px;
+      color: #aaa;
+      text-decoration: none;
+      font-weight: 100;
+      line-height: 1.2;
+      font-size: 22px;
+      margin-top: 84px;
+      margin-bottom: 84px;
+      cursor: pointer;
+      display: inline-block;
+    }
+    .clowder-contact-button button {
+      background: #df4c44 url('/assets/img/phone.png') center center no-repeat;
+      background-size: 60%;
+      border: 0;
+      height: 56px;
+      width: 56px;
+      border-radius: 56px;
+      border-bottom: 2px solid #999;
+      vertical-align: middle;
+      margin-bottom: 20px;
+    }
+.clowder-menu a {
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  padding: 15px 0;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #3c3c3c;
+  font-size: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+
+.clowder-content p {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.9;
+    color: #464646;
+    margin-bottom: 10px;
+  }
+
+  .clowder-title-text {
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    line-height: 1.4em;
+    font-weight: 500;
+    margin-bottom: 12px;
+    color: #3c3c3c;
+}
+
+.main-content-col {
+    width: 400px;
+    margin: 0 25px 0 50px;
+}
+
+.clowder-banner-img {
+  max-width: 240px;
+}
+
+.clowder-contact-info {
+  font-family: 'Roboto', sans-serif;
+  padding: 25px 0;
+}
+.clowder-contact-info-title {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.clowder-contact-info-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.5);
+}
+.clowder-contact-info-text b {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.5);
+  color: #fff;
+}
+.clowder-contact-info a {
+  color: inherit;
+  text-decoration: none;
+}
+.clowder-contact-info .tel {
+  background: #fff;
+  color: #000;
+  display: inline-block;
+  padding: 0px 5px;
+  margin-right: 3px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.clowder-contact-info .map {
+  background: url(/assets/img/map_marker.svg) center center no-repeat;
+  height: 32px;
+  width: 32px;
+  background-size: contain;
+  display: inline-block;
+  vertical-align: text-bottom;
+  opacity: 0.5;
+}
+
+.clowder-big-theme {
+  padding: 25px 0;
+}
+
+.clowder-big-theme-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.clowder-big-theme a {
+  font-family: 'Merriweather', serif;
+  color: #fff;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 1.8;
+  display: block;
+  white-space: nowrap;
+  padding-right: 30px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1280px) {
+
+  .clowder-big-theme,
+  .clowder-big-theme a {
+    font-size: 42px !important;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .clowder-big-theme a {
+    font-size: 32px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .clowder-big-theme a {
+    font-size: 22px !important;
+  }
+}
+
+.clowder-hamburger {
+  width: 40px;
+}
+
+.clowder-hamburger a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.clowder-hamburger-line {
+  height: 4px;
+  width: 100%;
+  background: #464646;
+  margin-bottom: 4px;
+}
+
+.clowder-hamburger-text {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.9;
+  color: #464646;
+  font-size: 14px;
+}
+
+.clowder-hamburger-overlay {
+  width: 100%;
+  height: 100%;
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  opacity: 0.95;
+  overflow-y: auto;
+}
+
+.clowder-menu-page {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  background: black;
+}
+
+.clowder-menu-page-wrapper {
+  display: flex;
+  margin: auto;
+}
+
+.clowder-close {
+  position: fixed;
+  top: 30px;
+  right: 40px;
+}
+
+.signature {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 80px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .clowder-menu-page-wrapper {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .clowder-menu-page-wrapper {
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .clowder-menu-page-wrapper {
+    margin-left: 25px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .clowder-big-theme {
+    margin-right: 50px;
+  }
+}
+
+.clowder-close {
+  width: 40px;
+}
+
+.clowder-close a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.clowder-close-text {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  line-height: 1.9;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  width: 40px;
+}

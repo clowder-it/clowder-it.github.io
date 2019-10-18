@@ -1,1 +1,8 @@
 url: https://www.clowder.it
+collections:
+  services:
+    output: true
+  articles:
+    output: false
+  showcases:
+    output: true

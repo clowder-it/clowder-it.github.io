@@ -1,0 +1,56 @@
+<div class="clowder-hamburger" data-component-id="clowder-hamburger">
+    <div class="clowder-hamburger-background"></div>
+    <a class="clowder-hamburger-link" href="/menu">
+        <div class="clowder-hamburger-wrapper">
+            <div class="clowder-hamburger-line"></div>
+            <div class="clowder-hamburger-line"></div>
+            <div class="clowder-hamburger-line"></div>
+            <div class="clowder-hamburger-line"></div>
+            <div class="clowder-hamburger-text">menu</div>
+        </div>
+    </a>
+    <div style="display: none" class="clowder-hamburger-overlay">
+        <div class="clowder-menu-page" data-component-id="clowder-menu-page">
+
+            <div class="clowder-close" data-component-id="clowder-close">
+                <a class="clowder-close-link" href="https://www.clowder.nl/">
+                    <div class="clowder-close-wrapper">
+                        <div class="clowder-close-text">✕</div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="clowder-menu-page-wrapper">
+                <div class="clowder-menu-page-layout-big-theme">
+                    <div class="clowder-big-theme" data-component-id="clowder-big-theme">
+                        <h3 class="clowder-big-theme-title">Diensten</h3>
+                        {% for page in site.showcase %}
+                        <a href="{{ page.url }}">{{ page.title }}</a>
+                        {% endfor %}
+
+                    </div>
+
+                </div>
+
+                <div class="clowder-menu-page-layout-contact-info">
+                    <div class="clowder-contact-info" data-component-id="clowder-contact-info">
+
+                        <h3 class="clowder-contact-info-title">Contact</h3>
+                        <div class="clowder-contact-info-text">
+                            <p>
+                                <a href="mailto:info@clowder.it">info@clowder.it</a>
+                            </p>
+                            <p>
+                                <b>Bezoekadres</b><br>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <img src="/assets/img/clowder-signature-white.svg" class="signature">
+            </div>
+        </div>
+
+    </div>
+</div>
